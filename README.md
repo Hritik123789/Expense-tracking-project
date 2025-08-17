@@ -41,39 +41,30 @@ expense tracking project 2/
      ```
 
 2. **Setup MySQL Database**
-   - Create a MySQL database named `expense_manager`.
-   - Create a table:
-     ```sql
-     CREATE TABLE expenses (
-         id INT AUTO_INCREMENT PRIMARY KEY,
-         expense_date DATE,
-         amount FLOAT,
-         category VARCHAR(255),
-         notes VARCHAR(255)
-     );
+   - Mysql database is provided use in it in MySqlWorkBench
      ```
 
-3. **Run Backend (FastAPI)**
+4. **Run Backend (FastAPI)**
    - Navigate to the `backend` folder and start the server:
      ```
      (Run this in Gitbash)
      uvicorn server:app --reload --port 8000
      ```
 
-4. **Run Frontend (Streamlit)**
+5. **Run Frontend (Streamlit)**
    - Navigate to the `frontend` folder and start the app:
      ```
      (Run this in terminal VSCode)
      streamlit run app.py
      ```
 
-5. **Run Tests**
+6. **Run Tests**
    - From the project root, run:
      ```
      pytest
      ```
 
-6. **Usage**
+7. **Usage**
    - Open your browser and go to `http://localhost:8501` to use the Expense
 
 
